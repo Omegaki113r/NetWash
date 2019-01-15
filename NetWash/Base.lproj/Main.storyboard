@@ -221,13 +221,6 @@
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                             </textField>
-                            <textField opaque="NO" alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Losenord" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="D2K-KL-Q58">
-                                <rect key="frame" x="16" y="156" width="343" height="30"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" secureTextEntry="YES" textContentType="password"/>
-                            </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_background" translatesAutoresizingMaskIntoConstraints="NO" id="Z0d-Yv-ZdG">
                                 <rect key="frame" x="0.0" y="293" width="375" height="310"/>
                                 <constraints>
@@ -235,7 +228,7 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JDF-86-0tK">
-                                <rect key="frame" x="123.5" y="206" width="128" height="128"/>
+                                <rect key="frame" x="124" y="206" width="128" height="128"/>
                                 <state key="normal" image="button_spara"/>
                                 <connections>
                                     <action selector="saveDetails:" destination="PIK-NC-psh" eventType="touchUpInside" id="acq-Fz-nHW"/>
@@ -247,19 +240,16 @@
                             <constraint firstItem="JDF-86-0tK" firstAttribute="centerX" secondItem="RJl-R4-ax2" secondAttribute="centerX" id="0tr-OT-bPB"/>
                             <constraint firstItem="2qa-WR-G4G" firstAttribute="leading" secondItem="MER-9R-ft3" secondAttribute="leading" constant="16" id="0zf-M8-EKb"/>
                             <constraint firstItem="Ef2-Pa-l0t" firstAttribute="bottom" secondItem="MER-9R-ft3" secondAttribute="bottom" id="5px-fL-uaZ"/>
+                            <constraint firstItem="JDF-86-0tK" firstAttribute="top" secondItem="chq-ZE-5lN" secondAttribute="bottom" constant="82" id="BYz-YJ-bOI"/>
                             <constraint firstItem="Ef2-Pa-l0t" firstAttribute="trailing" secondItem="MER-9R-ft3" secondAttribute="trailing" id="Inw-Ur-sPc"/>
                             <constraint firstItem="Ef2-Pa-l0t" firstAttribute="top" secondItem="MER-9R-ft3" secondAttribute="top" id="KPm-zZ-OCv"/>
                             <constraint firstItem="MER-9R-ft3" firstAttribute="bottom" secondItem="Z0d-Yv-ZdG" secondAttribute="bottom" id="L42-7q-cNK"/>
-                            <constraint firstItem="D2K-KL-Q58" firstAttribute="leading" secondItem="MER-9R-ft3" secondAttribute="leading" constant="16" id="LfF-6T-huY"/>
-                            <constraint firstItem="JDF-86-0tK" firstAttribute="top" secondItem="D2K-KL-Q58" secondAttribute="bottom" constant="20" id="P1F-c2-Jn4"/>
                             <constraint firstItem="2qa-WR-G4G" firstAttribute="top" secondItem="MER-9R-ft3" secondAttribute="top" constant="32" id="RlG-bF-Dsy"/>
                             <constraint firstItem="MER-9R-ft3" firstAttribute="trailing" secondItem="2qa-WR-G4G" secondAttribute="trailing" constant="16" id="SBi-qQ-wBh"/>
                             <constraint firstItem="MER-9R-ft3" firstAttribute="trailing" secondItem="chq-ZE-5lN" secondAttribute="trailing" constant="16" id="XGh-Pd-GQb"/>
                             <constraint firstItem="chq-ZE-5lN" firstAttribute="leading" secondItem="MER-9R-ft3" secondAttribute="leading" constant="16" id="ZFi-5L-7Z5"/>
                             <constraint firstItem="chq-ZE-5lN" firstAttribute="top" secondItem="2qa-WR-G4G" secondAttribute="bottom" constant="32" id="aVP-eI-E5n"/>
-                            <constraint firstItem="MER-9R-ft3" firstAttribute="trailing" secondItem="D2K-KL-Q58" secondAttribute="trailing" constant="16" id="kpv-JQ-DQh"/>
                             <constraint firstItem="Ef2-Pa-l0t" firstAttribute="leading" secondItem="MER-9R-ft3" secondAttribute="leading" id="njU-f8-B6B"/>
-                            <constraint firstItem="D2K-KL-Q58" firstAttribute="top" secondItem="chq-ZE-5lN" secondAttribute="bottom" constant="32" id="w8p-sx-O6h"/>
                             <constraint firstItem="Z0d-Yv-ZdG" firstAttribute="leading" secondItem="MER-9R-ft3" secondAttribute="leading" id="wlj-gb-Hb8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="MER-9R-ft3"/>
@@ -271,7 +261,6 @@
                         <outlet property="anlaggning" destination="2qa-WR-G4G" id="8TA-cY-aE6"/>
                         <outlet property="btnMenuItem" destination="9tk-eT-cBw" id="cxU-mk-7j0"/>
                         <outlet property="dittMedlemsNr" destination="chq-ZE-5lN" id="aIi-VC-nFg"/>
-                        <outlet property="losenord" destination="D2K-KL-Q58" id="gE1-wC-srl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hkY-8B-OTa" userLabel="First Responder" sceneMemberID="firstResponder"/>
