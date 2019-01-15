@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE37C82B21E544990008221F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE37C82A21E544990008221F /* AppDelegate.swift */; };
+		AE37C82D21E544990008221F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE37C82C21E544990008221F /* ViewController.swift */; };
+		AE37C83021E544990008221F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE37C82E21E544990008221F /* Main.storyboard */; };
+		AE37C83321E544990008221F /* NetWash.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE37C83121E544990008221F /* NetWash.xcdatamodeld */; };
+		AE37C83521E544990008221F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE37C83421E544990008221F /* Assets.xcassets */; };
+		AE37C83821E544990008221F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE37C83621E544990008221F /* LaunchScreen.storyboard */; };
+		AE37C84921E5464B0008221F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE37C84721E5464A0008221F /* SWRevealViewController.m */; };
+		AE37C84B21E54B9A0008221F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE37C84A21E54B9A0008221F /* MenuViewController.swift */; };
+		AE37C84F21E54D100008221F /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE37C84E21E54D100008221F /* MenuTableViewCell.swift */; };
+		AE37C85121E54DE70008221F /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE37C85021E54DE70008221F /* MenuTableViewController.swift */; };
+		AE37C85321E5591E0008221F /* Installegar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE37C85221E5591E0008221F /* Installegar.swift */; };
+		AE37C85521E55CF70008221F /* SupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE37C85421E55CF70008221F /* SupportViewController.swift */; };
+		AE37C85721E55D040008221F /* HemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE37C85621E55D040008221F /* HemViewController.swift */; };
+		AE94906C21E9384E0039E89F /* navigationHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE94906B21E9384E0039E89F /* navigationHeaderViewController.swift */; };
+		CE56AA89697BBF6F1419A5D1 /* Pods_NetWash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B1526B6EAA13F9F54FD92AF /* Pods_NetWash.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D7D3ACEC42C909249287EDF /* Pods-NetWash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetWash.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetWash/Pods-NetWash.release.xcconfig"; sourceTree = "<group>"; };
+		7B1526B6EAA13F9F54FD92AF /* Pods_NetWash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetWash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE37C82721E544990008221F /* NetWash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetWash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE37C82A21E544990008221F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE37C82C21E544990008221F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE37C82F21E544990008221F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE37C83221E544990008221F /* NetWash.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NetWash.xcdatamodel; sourceTree = "<group>"; };
+		AE37C83421E544990008221F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE37C83721E544990008221F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE37C83921E544990008221F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE37C84621E546490008221F /* NetWash-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetWash-Bridging-Header.h"; sourceTree = "<group>"; };
+		AE37C84721E5464A0008221F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		AE37C84821E5464A0008221F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		AE37C84A21E54B9A0008221F /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		AE37C84E21E54D100008221F /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		AE37C85021E54DE70008221F /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		AE37C85221E5591E0008221F /* Installegar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Installegar.swift; sourceTree = "<group>"; };
+		AE37C85421E55CF70008221F /* SupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportViewController.swift; sourceTree = "<group>"; };
+		AE37C85621E55D040008221F /* HemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HemViewController.swift; sourceTree = "<group>"; };
+		AE94906821E92F0C0039E89F /* NetWash.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NetWash.entitlements; sourceTree = "<group>"; };
+		AE94906B21E9384E0039E89F /* navigationHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationHeaderViewController.swift; sourceTree = "<group>"; };
+		EA1A3340958DC825BF5BC22B /* Pods-NetWash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetWash.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetWash/Pods-NetWash.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE37C82421E544990008221F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE56AA89697BBF6F1419A5D1 /* Pods_NetWash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01333FDB936D140BDA802272 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA1A3340958DC825BF5BC22B /* Pods-NetWash.debug.xcconfig */,
+				4D7D3ACEC42C909249287EDF /* Pods-NetWash.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6D5B7BEEF2312CEF3D33842D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B1526B6EAA13F9F54FD92AF /* Pods_NetWash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE37C81E21E544990008221F = {
+			isa = PBXGroup;
+			children = (
+				AE37C82921E544990008221F /* NetWash */,
+				AE37C82821E544990008221F /* Products */,
+				01333FDB936D140BDA802272 /* Pods */,
+				6D5B7BEEF2312CEF3D33842D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE37C82821E544990008221F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE37C82721E544990008221F /* NetWash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE37C82921E544990008221F /* NetWash */ = {
+			isa = PBXGroup;
+			children = (
+				AE94906821E92F0C0039E89F /* NetWash.entitlements */,
+				AE37C84821E5464A0008221F /* SWRevealViewController.h */,
+				AE37C84721E5464A0008221F /* SWRevealViewController.m */,
+				AE37C82A21E544990008221F /* AppDelegate.swift */,
+				AE37C82C21E544990008221F /* ViewController.swift */,
+				AE37C82E21E544990008221F /* Main.storyboard */,
+				AE37C83421E544990008221F /* Assets.xcassets */,
+				AE37C83621E544990008221F /* LaunchScreen.storyboard */,
+				AE37C83921E544990008221F /* Info.plist */,
+				AE37C83121E544990008221F /* NetWash.xcdatamodeld */,
+				AE37C84621E546490008221F /* NetWash-Bridging-Header.h */,
+				AE37C84A21E54B9A0008221F /* MenuViewController.swift */,
+				AE37C84E21E54D100008221F /* MenuTableViewCell.swift */,
+				AE37C85021E54DE70008221F /* MenuTableViewController.swift */,
+				AE37C85221E5591E0008221F /* Installegar.swift */,
+				AE37C85421E55CF70008221F /* SupportViewController.swift */,
+				AE37C85621E55D040008221F /* HemViewController.swift */,
+				AE94906B21E9384E0039E89F /* navigationHeaderViewController.swift */,
+			);
+			path = NetWash;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE37C82621E544990008221F /* NetWash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE37C83C21E544990008221F /* Build configuration list for PBXNativeTarget "NetWash" */;
+			buildPhases = (
+				DA9D01E3B6727F548D34A19A /* [CP] Check Pods Manifest.lock */,
+				AE37C82321E544990008221F /* Sources */,
+				AE37C82421E544990008221F /* Frameworks */,
+				AE37C82521E544990008221F /* Resources */,
+				10954A91BF261F9E8D27AF81 /* [CP] Embed Pods Frameworks */,
+				A3F8ECA66CC867910048C9D0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetWash;
+			productName = NetWash;
+			productReference = AE37C82721E544990008221F /* NetWash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE37C81F21E544990008221F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "PK Software Solutions";
+				TargetAttributes = {
+					AE37C82621E544990008221F = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = AE37C82221E544990008221F /* Build configuration list for PBXProject "NetWash" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE37C81E21E544990008221F;
+			productRefGroup = AE37C82821E544990008221F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE37C82621E544990008221F /* NetWash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE37C82521E544990008221F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE37C83821E544990008221F /* LaunchScreen.storyboard in Resources */,
+				AE37C83521E544990008221F /* Assets.xcassets in Resources */,
+				AE37C83021E544990008221F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10954A91BF261F9E8D27AF81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NetWash/Pods-NetWash-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetWash/Pods-NetWash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3F8ECA66CC867910048C9D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetWash/Pods-NetWash-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA9D01E3B6727F548D34A19A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetWash-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE37C82321E544990008221F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE37C82D21E544990008221F /* ViewController.swift in Sources */,
+				AE37C85121E54DE70008221F /* MenuTableViewController.swift in Sources */,
+				AE37C85321E5591E0008221F /* Installegar.swift in Sources */,
+				AE37C84B21E54B9A0008221F /* MenuViewController.swift in Sources */,
+				AE37C84F21E54D100008221F /* MenuTableViewCell.swift in Sources */,
+				AE37C85521E55CF70008221F /* SupportViewController.swift in Sources */,
+				AE94906C21E9384E0039E89F /* navigationHeaderViewController.swift in Sources */,
+				AE37C82B21E544990008221F /* AppDelegate.swift in Sources */,
+				AE37C83321E544990008221F /* NetWash.xcdatamodeld in Sources */,
+				AE37C84921E5464B0008221F /* SWRevealViewController.m in Sources */,
+				AE37C85721E55D040008221F /* HemViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE37C82E21E544990008221F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE37C82F21E544990008221F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE37C83621E544990008221F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE37C83721E544990008221F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE37C83A21E544990008221F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE37C83B21E544990008221F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE37C83D21E544990008221F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA1A3340958DC825BF5BC22B /* Pods-NetWash.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HPP5D3BWYA;
+				INFOPLIST_FILE = NetWash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PK-Software-Solutions.Omegaki113r.NetWash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NetWash/NetWash-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE37C83E21E544990008221F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D7D3ACEC42C909249287EDF /* Pods-NetWash.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HPP5D3BWYA;
+				INFOPLIST_FILE = NetWash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PK-Software-Solutions.Omegaki113r.NetWash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NetWash/NetWash-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE37C82221E544990008221F /* Build configuration list for PBXProject "NetWash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE37C83A21E544990008221F /* Debug */,
+				AE37C83B21E544990008221F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE37C83C21E544990008221F /* Build configuration list for PBXNativeTarget "NetWash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE37C83D21E544990008221F /* Debug */,
+				AE37C83E21E544990008221F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AE37C83121E544990008221F /* NetWash.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AE37C83221E544990008221F /* NetWash.xcdatamodel */,
+			);
+			currentVersion = AE37C83221E544990008221F /* NetWash.xcdatamodel */;
+			path = NetWash.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AE37C81F21E544990008221F /* Project object */;
+}
