@@ -50,10 +50,13 @@ class ViewController: UIViewController {
         }
         
         print(anlagging)
-        let url = URL(string: "http://www.lkjz.se/send.aspx?s="+anlagging+"&l="+dittMedlemNr+"&p="+losenord)!
-        let request1 = URLRequest(url:url)
-        webView?.load(request1)
-        webView?.allowsBackForwardNavigationGestures = true
+        if(anlagging != nil && dittMedlemNr != nil){
+            let url = URL(string: "http://www.lkjz.se/send.aspx?s="+anlagging+"&l="+dittMedlemNr+"&p="+losenord)!
+            let request1 = URLRequest(url:url)
+            webView?.load(request1)
+            webView?.allowsBackForwardNavigationGestures = true
+        }
+        
         
         // Do any additional setup after loading the view, typically from a nib.
     }

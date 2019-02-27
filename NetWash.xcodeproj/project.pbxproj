@@ -133,7 +133,6 @@
 				AE37C82421E544990008221F /* Frameworks */,
 				AE37C82521E544990008221F /* Resources */,
 				10954A91BF261F9E8D27AF81 /* [CP] Embed Pods Frameworks */,
-				A3F8ECA66CC867910048C9D0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,7 +209,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-NetWash/Pods-NetWash-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-NetWash/Pods-NetWash-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
@@ -229,22 +228,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetWash/Pods-NetWash-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A3F8ECA66CC867910048C9D0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetWash/Pods-NetWash-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NetWash/Pods-NetWash-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DA9D01E3B6727F548D34A19A /* [CP] Check Pods Manifest.lock */ = {

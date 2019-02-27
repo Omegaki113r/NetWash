@@ -49,6 +49,15 @@ DEPENDENCIES:
   - MaterialComponents/Snackbar
   - NVActivityIndicatorView
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - IQKeyboardManagerSwift
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - NVActivityIndicatorView
+
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
@@ -59,4 +68,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: e7433dba832bc948e5343cbc0b66044ccc70c94f
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.6.1

@@ -50,10 +50,13 @@ class SupportViewController: UIViewController {
         }
         
         print(anlagging)
-        let url = URL(string: "http://support.wash-it.se?anl="+anlagging)!
-        let request1 = URLRequest(url:url)
-        webView?.load(request1)
-        webView?.allowsBackForwardNavigationGestures = true
+        if(anlagging != nil){
+            let url = URL(string: "http://support.wash-it.se?anl="+anlagging)!
+            let request1 = URLRequest(url:url)
+            webView?.load(request1)
+            webView?.allowsBackForwardNavigationGestures = true
+        }
+        
         
         
         
